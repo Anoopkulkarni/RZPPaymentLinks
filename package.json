@@ -5,9 +5,7 @@
   "main": "mainApi.js",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "razorpay": "^2.0.6",
-    "razorpay-node-master": "^2.0.6"
+    "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
