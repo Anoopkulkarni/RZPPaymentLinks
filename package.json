@@ -1,0 +1,20 @@
+{
+  "name": "paymentlinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mainApi.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "razorpay": "^2.0.6",
+    "razorpay-node-master": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node mainApi.js"
+
+  },
+  "author": "",
+  "license": "ISC"
+}
