@@ -5,18 +5,18 @@ const cors=require('cors');
 const https = require('https');
 const request = require('request');
 const api=require('./Razorpay_key');
-const Razorpay = require('razorpay-node-master');
+//const Razorpay = require('razorpay-node-master');
 // const Razorpay = require('https://api.razorpay.com/v1/payment_links/');
 // app.get('https://api.razorpay.com/v1/payment_links')
 
 
 
 const app=express();
-const rzp= new Razorpay({
+/*const rzp= new Razorpay({
 	key_id:api.key,
 	key_secret:api.secrete,
 	headers:{"Content-Type": "application/json"}
-	});
+	});*/
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(cors())
